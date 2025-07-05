@@ -1,4 +1,4 @@
-# 🔍 Defect Detection in Manufacturing Using Computer Vision and Deep Learning
+#  Defect Detection in Manufacturing Using Computer Vision and Deep Learning
 
 This repository contains the code, models, and documentation for my **Industry Internship Project** completed at **Proglint's Software Solutions** as part of the **Industry Internship Programme (IIP) - XXI 700** in Semester VI of the **B.Tech in Computer Science and Engineering (AIML)** 
 
