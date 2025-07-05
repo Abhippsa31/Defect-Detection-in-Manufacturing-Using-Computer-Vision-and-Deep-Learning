@@ -18,15 +18,6 @@ The system also classifies defects by **severity level**: Minor, Moderate, Sever
 
 ---
 
-## 📸 Sample Output
-
-<p align="center">
-  <img src="visualizations/sample_output.png" width="600" alt="Sample Visualization">
-</p>
-
-🟥 Severe | 🟨 Moderate | 🟩 Minor — Color-coded bounding boxes from ensemble output
-
----
 
 ## 🎯 Objectives
 
