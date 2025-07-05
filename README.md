@@ -1,11 +1,6 @@
 # 🔍 Defect Detection in Manufacturing Using Computer Vision and Deep Learning
 
-![GitHub Repo stars](https://img.shields.io/github/stars/your-username/defect-detection-internship?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/defect-detection-internship?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/defect-detection-internship)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
-This repository contains the code, models, and documentation for my **Industry Internship Project** completed at **Proglint's Software Solutions** as part of the **Industry Internship Programme (IIP) - XXI 700** in Semester VI of the **B.Tech in Computer Science and Engineering (AIML)** at Alliance University, Bengaluru.
+This repository contains the code, models, and documentation for my **Industry Internship Project** completed at **Proglint's Software Solutions** as part of the **Industry Internship Programme (IIP) - XXI 700** in Semester VI of the **B.Tech in Computer Science and Engineering (AIML)** 
 
 ---
 
@@ -65,6 +60,42 @@ The system also classifies defects by **severity level**: Minor, Moderate, Sever
 3. **Fusion** → Weighted averaging based on model confidence.
 4. **Severity Scoring** → Minor (0.0–0.5), Moderate (0.5–0.8), Severe (0.8–1.0).
 5. **Visualization** → Color-coded bounding boxes.
+
+---
+
+---
+
+## 🧠 Model Architectures
+
+### YOLOv8
+- Real-time detection with bounding boxes and segmentation
+- mAP@0.5: **96.58%**
+
+### CNN (Custom)
+- 3 Conv + Dense layers (lightweight)
+- Accuracy: **74%**
+
+### EfficientNet (B0)
+- Transfer learning, deep representation
+- Accuracy: **86%**
+
+### Ensemble Fusion
+- **Weighted Average** of predictions:
+  - YOLOv8: 96.6%
+  - CNN: 74%
+  - EfficientNet: 86%
+
+---
+
+## 📊 Model Results Summary
+
+| Model        | Training | Validation | Testing |
+|--------------|----------|------------|---------|
+| YOLOv8       | 98.2%    | 96.9%      | 96.6%   |
+| CNN          | 82.0%    | 75.0%      | 74.0%   |
+| EfficientNet | 90.5%    | 87.2%      | 86.0%   |
+
+✅ Ensemble gives improved classification accuracy and robustness.
 
 ---
 
