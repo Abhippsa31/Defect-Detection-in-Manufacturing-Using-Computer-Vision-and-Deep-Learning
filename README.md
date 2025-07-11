@@ -38,7 +38,6 @@ The system also classifies defects by **severity level**: Minor, Moderate, Sever
 | Visualization    | Matplotlib, OpenCV  |
 | Language         | Python              |
 | IDE              | Jupyter Notebook    |
-| Deployment       | Streamlit (Optional) |
 
 ---
 
